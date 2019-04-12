@@ -1,7 +1,7 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-	    <parent>
+    <parent>
         <groupId>com.jwebmp</groupId>
         <artifactId>jwebmp-builder</artifactId>
         <version>0.0.0_0-SNAPSHOT</version>
@@ -9,14 +9,18 @@
 
     <groupId>com.jwebmp.core</groupId>
     <artifactId>jwebmp-core-modules</artifactId>
-    <version>0.0.0_0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>JWebMP Core Modules</name>
     <description>The root folder for JWebMP modules libraries</description>
 
-    <modules>
-
-    </modules>
-
+    <profiles>
+        <profile>
+            <id>devkit</id>
+            <modules>
+                <module>JWebMPTestLib</module>
+                <module>InterceptionsLibrary</module>
+            </modules>
+        </profile>
+    </profiles>
 </project>

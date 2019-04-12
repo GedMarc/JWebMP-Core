@@ -1,0 +1,8 @@
+[submodule "InterceptionsLibrary"]
+	path = InterceptionsLibrary
+	url = https://github.com/GedMarc/JWebMP-JWebMPInterception.git
+	ignore=dirty
+[submodule "JWebMPTestLib"]
+	path = JWebMPTestLib
+	url = https://github.com/GedMarc/JWebMP-TestLib.git
+	ignore=dirty
