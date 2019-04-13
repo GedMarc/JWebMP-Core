@@ -20,6 +20,7 @@
             <modules>
                 <module>JWebMPTestLib</module>
                 <module>InterceptionsLibrary</module>
+                <module>JWebMPCore</module>
             </modules>
         </profile>
     </profiles>

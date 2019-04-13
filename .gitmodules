@@ -6,3 +6,9 @@
 	path = JWebMPTestLib
 	url = https://github.com/GedMarc/JWebMP-TestLib.git
 	ignore=dirty
+[submodule "JWebMP"]
+	path = JWebMP
+	url = https://github.com/GedMarc/JWebMP.git
+[submodule "JWebMPCore"]
+	path = JWebMPCore
+	url = https://github.com/GedMarc/JWebMP.git
