@@ -19,7 +19,7 @@
             <id>enable-jwebmp-core</id>
             <modules>
                 <module>JWebMPTestLib</module>
-                <module>InterceptionsLibrary</module>
+                <!--<module>InterceptionsLibrary</module>-->
                 <module>JWebMPCore</module>
             </modules>
         </profile>
